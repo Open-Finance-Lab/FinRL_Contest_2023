@@ -5,6 +5,7 @@ This repository contains the starter kit and resources for the ACM ICAIF 2023 Fi
 Task 1 Data Centric Stock Trading: 
 * Please download task-1-stock-trading-starter-kit.zip.
 * The file descriptions and submission requirements can be found in readme.md.
+
 Task 2 Real Time Order Execution:
 * Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
 * The descriptions and FAQ can found on the [submission platform](https://finrl-contest-2023.web.app/).
