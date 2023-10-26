@@ -8,7 +8,7 @@ Task 1 Data Centric Stock Trading:
 
 Task 2 Real Time Order Execution:
 * Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
-* The descriptions and FAQ can found on the [submission platform](https://finrl-contest-2023.web.app/).
+* The descriptions and FAQ can be found on the [submission platform](https://finrl-contest-2023.web.app/).
 
 ## Resources
 Useful materials and resources for contestants to learn about FinRL:
