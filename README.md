@@ -1,7 +1,11 @@
 # FinRL_Contest_Starter_Kit
 This repository contains the starter kit and resources for the ACM ICAIF 2023 FinRL Contest.
 
-## Task 1 Data Centric Stock Trading Starter Kit: 
+## Outline
+  - [Task 1 Data Centric Stock Trading Starter Kit](#task-1-data-centric-stock-trading-starter-kit)
+  - [Task 2 Real Time Order Execution Starter Kit](#task-2-real-time-order-execution-starter-kit)
+
+## Task 1 Data Centric Stock Trading Starter Kit
 Please download task-1-stock-trading-starter-kit.zip. To utilize FinRL library, please install required packages first:
 ```
 pip install swig
@@ -29,7 +33,7 @@ The performance can be measured from three dimensions:
 $$\text{Portfolio cumulative return} = \frac{{\text{current portfolio value} - \text{initial portfolio value}}}{\text{current portfolio value}}$$
 
 3. Sharpe ratio. It takes into account both the returns of the portfolio and the level of risk.
-$$\text{Sharpe ratio} = \frac{\text{portfolio return} - \text{riskfree rate}}{\text{standard deviation of portfolio return}}$$
+$$\text{Sharpe ratio} = \frac{\text{portfolio return} - \text{riskfree rate}}{\text{standard deviation of portfolio's excess return}}$$
 
 4. Max drawdown. It is the portfolio’s largest percentage drop from a peak to a trough in a certain time period, which provides a measure of downside risk.
 $$\text{Max Drawdown }= \frac{\text{peak value} - \text{trough value}}{\text{peak value}}$$
@@ -53,7 +57,7 @@ Since this is a data-centric task, contestants are free to design data processin
 | turbulance |Turbulence|To control the risk in a worst-case scenario, such as financial crisis of 2007–2008, FinRL employs the financial turbulence index that measures extreme asset price fluctuation.|
 
 
-## Task 2 Real Time Order Execution Starter Kit:
+## Task 2 Real Time Order Execution Starter Kit
 Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
 
 ### Template
