@@ -4,6 +4,7 @@ This repository contains the starter kit and resources for the ACM ICAIF 2023 Fi
 ## Outline
   - [Task 1 Data Centric Stock Trading Starter Kit](#task-1-data-centric-stock-trading-starter-kit)
   - [Task 2 Real Time Order Execution Starter Kit](#task-2-real-time-order-execution-starter-kit)
+  - [Resources](#resources)
 
 ## Task 1 Data Centric Stock Trading Starter Kit
 Please download task-1-stock-trading-starter-kit.zip. To utilize FinRL library, please install required packages first:
@@ -74,7 +75,7 @@ Contestants need to complete the Strategy class to implement order execution str
 *	Only the most recent submission that passes linting will be used for final evaluation.
 
 ## Resources
-Useful materials and resources for contestants to learn about FinRL:
+Useful materials and resources for contestants to learn about FinRL, including APIs, tutorials, and demos:
 * [FinRL Stock Trading Demo](https://colab.research.google.com/drive/1OuItFmsY8gSDBtQYc3N5X1SD1UjHBQ9b?usp=sharing)
 * [FinRL](https://github.com/AI4Finance-Foundation/FinRL)
 * [FinRL-Meta](https://github.com/AI4Finance-Foundation/FinRL-Meta)
