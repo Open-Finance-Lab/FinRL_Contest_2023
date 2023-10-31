@@ -54,8 +54,20 @@ Since this is a data-centric task, contestants are free to design data processin
 
 
 ## Task 2 Real Time Order Execution Starter Kit:
-* Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
-* The descriptions and FAQ can be found on the [submission platform](https://finrl-contest-2023.web.app/).
+Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
+
+### Template
+Contestants need to complete the Strategy class to implement order execution strategy and interact with our exchange. The functions int this class are explained below. Contestants are free to add new functions to the class but should not change the signatures of the provided functions.
+* **place_market_order** allows you to place orders for the exchange at a given price/quantity, and you can call this in any function (including __init__). 
+* **on_orderbook_update** is called when a new order is placed by another algorithm (BUY or SELL). 
+*	**on_trade_update** is called when two orders match (one BUY, one SELL). This could be your order or two other orders. 
+*	**on_account_update** is called when one of *your* orders matches with another order.
+
+### Requirements
+*	The initial capital is $100,000. 
+*	The libraries that can be used include numpy, pandas, scipy, polars, and scikit-learn.
+*	The submission will tested automatically on our website. You can click the submission to view the error if any function fails to run.
+*	Only the most recent submission that passes linting will be used for final evaluation.
 
 ## Resources
 Useful materials and resources for contestants to learn about FinRL:
