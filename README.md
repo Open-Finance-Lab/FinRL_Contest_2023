@@ -7,7 +7,7 @@ This repository contains the starter kit and resources for the ACM ICAIF 2023 Fi
   - [Resources](#resources)
 
 ## Task 1 Data Centric Stock Trading Starter Kit
-Please download task-1-stock-trading-starter-kit.zip. To utilize FinRL library, please install required packages first:
+We will evaluate code with Python 3.10.12 on Ubuntu 22.04.2 LTS. Please download task-1-stock-trading-starter-kit.zip. To utilize FinRL library, please install required packages first:
 ```
 pip install swig
 pip install box2d
