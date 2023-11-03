@@ -57,18 +57,24 @@ Since this is a data-centric task, contestants are free to design data processin
 | vix |Volatility Index|Often referred to as the "fear index", it represents the market's expectation of 30-day forward-looking volatility. It is calculated from the prices of selected stock option contracts on the S&P 500 Index.|
 | turbulance |Turbulence|To control the risk in a worst-case scenario, such as financial crisis of 2007–2008, FinRL employs the financial turbulence index that measures extreme asset price fluctuation.|
 
+### Submissions
+Please submit a zip for your files, which should include trained_models, test.py, readme.md, requirements.txt, and any additional scripts you create.
+Please make sure your algorithms are compatible with FinRL PPO agent.
+Please make sure your test.py will generate a results.csv for returns, as it is in the starter kit.
 
 ## Task 2 Real Time Order Execution Starter Kit
 Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
+We provide a sample solution for task 2. Please feel free to have a look.
 
 ### Functions
-Contestants need to complete the Strategy class to implement order execution strategy and interact with our exchange. The functions in this class are explained below. Contestants are free to add new functions to the class but should not change the signatures of the provided functions.
+Contestants need to complete the Strategy class to implement order execution strategy and interact with our exchange. The functions in this class are explained below. Contestants are free to add new functions to the class but should not change the signatures of the provided functions. During the evaluation period, all contestants' algorithms will compete in the same exchange at the same time.
 * **place_market_order** allows you to place orders for the exchange at a given price/quantity, and you can call this in any function (including __init__). 
 * **on_orderbook_update** is called when a new order is placed by another algorithm (BUY or SELL). 
 *	**on_trade_update** is called when two orders match (one BUY, one SELL). This could be your order or two other orders. 
 *	**on_account_update** is called when one of *your* orders matches with another order.
 
 The initial capital is $100,000. The libraries that can be used include numpy, pandas, scipy, polars, and scikit-learn.
+The exchange allows three tickers to trade. The tickers will be randomly picked up during the evaluation period.
 
 ### Requirements
 *	The submission will tested automatically on our website. You can click the submission to view the error if any function fails to run.
