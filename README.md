@@ -58,9 +58,9 @@ Since this is a data-centric task, contestants are free to design data processin
 | turbulance |Turbulence|To control the risk in a worst-case scenario, such as financial crisis of 2007–2008, FinRL employs the financial turbulence index that measures extreme asset price fluctuation.|
 
 ### Submissions
-Please submit a zip for your files, which should include trained_models, test.py, readme.md, requirements.txt, and any additional scripts you create.
-Please make sure your algorithms are compatible with FinRL PPO agent.
-Please make sure your test.py will generate a results.csv for returns, as it is in the starter kit.
+* Please submit a zip for your files, which should include trained_models, test.py, readme.md, requirements.txt, and any additional scripts you create.
+* Please make sure your algorithms are compatible with FinRL PPO agent.
+* Please make sure your test.py will generate a results.csv for returns, as it is in the starter kit.
 
 ## Task 2 Real Time Order Execution Starter Kit
 Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
