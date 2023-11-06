@@ -59,15 +59,22 @@ Since this is a data-centric task, contestants are free to design data processin
 
 ### Submissions
 * Please submit a zip for your files, which should include trained_models, test.py, readme.md, requirements.txt, and any additional scripts you create.
+* Please make sure your initial capital is $1 million.
 * Please make sure your algorithms are compatible with FinRL PPO agent.
-* Please make sure your test.py will generate a results.csv for returns, as it is in the starter kit.
+* Please make sure your test.py will generate a results.csv for returns, with the same format as it is in the starter kit.
+* The linter will not test the task 1 submission. Contestants can split the train dataset to test algorithms.
+  
+We will use `test.py` to assess the performance of your submitted model. The test_data.csv will have the same format as the train dataset we provide. (Dates below are just an example.)
+```
+python3 test.py --start_date 2022-01-01 --end_date 2022-12-31 --data_file test_data.csv
+```
 
 ## Task 2 Real Time Order Execution Starter Kit
 Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
 We provide a sample solution for task 2. Please feel free to have a look.
 
 ### Functions
-Contestants need to complete the Strategy class to implement order execution strategy and interact with our exchange. The functions in this class are explained below. Contestants are free to add new functions to the class but should not change the signatures of the provided functions. During the evaluation period, all contestants' algorithms will compete in the same exchange at the same time.
+Contestants need to complete the Strategy class to implement order execution strategy and interact with our exchange. The functions in this class are explained below. Contestants are free to add new functions to the class but should not change the signatures of the provided functions. 
 * **place_market_order** allows you to place orders for the exchange at a given price/quantity, and you can call this in any function (including __init__). 
 * **on_orderbook_update** is called when a new order is placed by another algorithm (BUY or SELL). 
 *	**on_trade_update** is called when two orders match (one BUY, one SELL). This could be your order or two other orders. 
@@ -76,7 +83,12 @@ Contestants need to complete the Strategy class to implement order execution str
 The initial capital is $100,000. The libraries that can be used include numpy, pandas, scipy, polars, and scikit-learn.
 The exchange allows three tickers to trade. The tickers will be randomly picked up during the evaluation period.
 
-### Requirements
+### Exchange
+* The exchange allows three tickers to trade. The tickers will be randomly picked up during the evaluation period.
+* The exchange have bot to add liquidity. It will be difficult to exhaust the liquidity in the market.
+* During the final evaluation stage, all contestants' algorithms will compete together in our exchange at the same time. Therefore, one team's performance will be influenced by other teams.
+
+### Submissions
 *	The submission will tested automatically on our website. You can click the submission to view the error if any function fails to run.
 *	Only the most recent submission that passes linting will be used for final evaluation.
 
