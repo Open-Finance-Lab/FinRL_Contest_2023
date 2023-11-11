@@ -4,6 +4,7 @@ This repository contains the starter kit and resources for the ACM ICAIF 2023 Fi
 ## Outline
   - [Task 1 Data Centric Stock Trading Starter Kit](#task-1-data-centric-stock-trading-starter-kit)
   - [Task 2 Real Time Order Execution Starter Kit](#task-2-real-time-order-execution-starter-kit)
+  - [Report Submission Requirement](#report-submission-requirement)
   - [Resources](#resources)
 
 ## Task 1 Data Centric Stock Trading Starter Kit
@@ -91,6 +92,9 @@ The exchange allows three tickers to trade. The tickers will be randomly picked 
 ### Submissions
 *	The submission will tested automatically on our website. You can click the submission to view the error if any function fails to run.
 *	Only the most recent submission that passes linting will be used for final evaluation.
+
+## Report Submission Requirement
+Each team should also submit a 1-2 page report for the corresponding task they choose with the [ACM sigconf template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc) through [Open Review](https://openreview.net/group?id=ACM.org/ICAIF/2023/FinRL_Contest). The title should start with “FinRL Contest Task I” or “FinRL Contest Task II.”
 
 ## Resources
 Useful materials and resources for contestants to learn about FinRL, including APIs, tutorials, and demos:
