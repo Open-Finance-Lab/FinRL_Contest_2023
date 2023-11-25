@@ -38,7 +38,7 @@ $$\text{Portfolio cumulative return} = \frac{{\text{current portfolio value} - \
 $$\text{Sharpe ratio} = \frac{\text{portfolio return} - \text{riskfree rate}}{\text{standard deviation of portfolio's excess return}}$$
 
 4. Max drawdown. It is the portfolio’s largest percentage drop from a peak to a trough in a certain time period, which provides a measure of downside risk.
-$$\text{Max Drawdown }= \frac{\text{peak value} - \text{trough value}}{\text{peak value}}$$
+$$\text{Max Drawdown }= \frac{\text{trough value} - \text{peak value}}{\text{peak value}}$$
 
 Contestants can also compare their returns with other investment strategies or indices over a time period, such as Mean-Variance Optimization strategy and Dow Jones Industrial Average (DJIA) index.
 
