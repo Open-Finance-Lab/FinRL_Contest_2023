@@ -1,5 +1,5 @@
-# FinRL_Contest_Starter_Kit
-This repository contains the starter kit and resources for the ACM ICAIF 2023 FinRL Contest.
+# FinRL_Contest
+This repository contains the starter kit and resources for the ACM ICAIF 2023 FinRL Contest. Task 1 and Task 2 hold the algorithms and reports from our teams.
 
 ## Outline
   - [Task 1 Data Centric Stock Trading Starter Kit](#task-1-data-centric-stock-trading-starter-kit)
