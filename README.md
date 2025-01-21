@@ -8,12 +8,17 @@ This repository contains the starter kit and resources for the ACM ICAIF 2023 Fi
   - [Resources](#resources)
 
 ## Task 1 Data Centric Stock Trading Starter Kit
+This task emphasizes data engineering in building FinRL agents. The contestants are encouraged to devise novel data-centric strategies to clean, transform, and aggregate stock data to improve trading performance, with the model being fixed.
+
+A dataset containing OHLCV data for stocks is provided. Contestants are free to design data processing strategies and perform feature engineering, such as constructing new indicators based on existing and/or external market data.
+
 We will evaluate code with Python 3.10.12 on Ubuntu 22.04.2 LTS. Please download task-1-stock-trading-starter-kit.zip. To utilize FinRL library, please install required packages first:
 ```
 pip install swig
 pip install box2d
 pip install git+https://github.com/AI4Finance-Foundation/FinRL.git
 ```
+
 ### Data
 We provide the OHLCV data for 29 stocks from Jul 1, 2010 to Oct 24, 2023, for a total of 97208 pieces of data. 
 
@@ -71,6 +76,10 @@ python3 test.py --start_date 2022-01-01 --end_date 2022-12-31 --data_file test_d
 ```
 
 ## Task 2 Real Time Order Execution Starter Kit
+This task focuses on building lightweight algorithmic trading systems in a fair environment.
+
+A template will be provided for contestants, and each team needs to write their functions in this template to perform order execution. We will provide an exchange of limit order book data to interact with contestants. After the contest, we will conduct real-time trading for all teams' submissions at the same time. We would advise you to keep your algorithms lightweight. 
+
 Please download the task-2-order-execution-template.py or download it from our [submission platform](https://finrl-contest-2023.web.app/).
 We provide a sample solution for task 2. Please feel free to have a look.
 
